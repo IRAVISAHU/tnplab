@@ -24,7 +24,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-
+    z-index: 2;
   }
 
 
@@ -52,14 +52,7 @@ h1{
     visibility: hidden;
     position: relative;
 }
-/* .toBeReplaced:after {
-    visibility: visible;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "100% Placement with Gurantee";
-    background-color: antiquewhite;
-} */
+
 .formnew{
     margin: auto;
     width: 50%;
@@ -118,9 +111,9 @@ h4{
 }
 #opi{
     text-align: center;
-    color:green;
+   
     font-weight: bold;
-    font-size: larger;
+    font-size: 70px;
     
 }
 button{
