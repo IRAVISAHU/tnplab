@@ -10,6 +10,16 @@ img{
 
     
 }
+.acc .slide{
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    /* color:blue; */
+    display: block;
+
+}
+
 li{
    list-style-type: none;
    margin: 0;
@@ -62,16 +72,19 @@ h1{
     border-width: 5px;
     border-style: solid;
     border-color: green;
+    background-image: linear-gradient(to right,antiquewhite,white);
         
  
 }
 .full{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     align-items: center;
     text-decoration: solid;
     display: grid;
     padding-left: 20px;
     font-weight: bolder;
+    background-image: linear-gradient(to left,antiquewhite,white);
+    
    
 
 }
@@ -162,25 +175,24 @@ button{
     margin: 5px ;
     padding-top: 10px;
     border-radius: 10px;
+    
 }
+.col{
+    background-color:antiquewhite;
+    box-sizing: border-box;
+    border: 2px solid #333;
+    margin: 5px ;
+    padding-top: 10px;
+    border-radius: 10px;
+
+}
+
 .min{
     width: 40%;
     margin: 10px 160px 10px 300px;
     align-items: center;
 }
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 
-} */
-/* body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #444;
-    min-height: 100vh;
-} */
 .container{
     width: 1000px;
     position: relative;
